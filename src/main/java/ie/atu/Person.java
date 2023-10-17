@@ -36,7 +36,7 @@ public class Person {
         this.age = scanner.nextInt();
     }
     public void displayInfo(){
-        System.out.println("Name: " + firstName + " " + lastName + " ,Age" + age);
+        System.out.println("Name: " + firstName + " " + lastName + ", Age " + age);
     }
 
 }
