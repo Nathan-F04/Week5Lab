@@ -8,5 +8,14 @@ public class Main {
         System.out.println("You entered " + paulLen.firstName + " " + paulLen.lastName + " " + paulLen.age + " ");
         Person johnJoe = new Person();
         System.out.println("You entered " + johnJoe.firstName + " " + johnJoe.lastName + " " + johnJoe.age + " ");
+
+        //Create new person object
+        Person user = new Person();
+
+        //Get user input
+        user.getUserInput();
+
+        //Call the displayInfo method
+        user.displayInfo();
         }
     }
