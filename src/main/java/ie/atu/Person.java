@@ -8,7 +8,7 @@ public class Person {
         this.age=0;
 
     }
-    public Person(String lastName,String firstName,int age) {
+    public Person(String firstName,String lastName,int age) {
         this.firstName= firstName;
         this.lastName = lastName;
         this.age=age;
